@@ -1,9 +1,9 @@
-z_what_dim = 64
+z_what_dim = 32
 z_where_scale_dim = 2  # sx sy
 z_where_shift_dim = 2  # tx ty
 z_pres_dim = 1
-glimpse_size = 64
-img_h = 128
+glimpse_size = 32
+img_h = 64
 img_w = img_h
 img_encode_dim = 64
 z_depth_dim = 1
