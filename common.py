@@ -58,7 +58,7 @@ cfg = {
     'using_bg_sbd': False,
     'gen_disc_pres_probs': 0.1,
     'observe_frames': 5,
-    'size_anc': 0.1,
+    'size_anc': 0.4,
     'var_s': 0.03,
     'ratio_anc': 2.5,
     'var_anc': 0.5,

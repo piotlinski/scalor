@@ -29,7 +29,9 @@ class TrainStation(Dataset):
 
     @staticmethod
     def load_image(path):
-        return np.array(Image.open(path))
+        img = Image.open(path)
+        img = img.resize((64, 64), Image.ANTIALIAS)
+        return np.array(img)
 
     def __getitem__(self, index):
         sequence = self.sequences[index]

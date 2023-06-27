@@ -38,7 +38,7 @@ def parse(parser):
                         help='Fixed random seed.')
     parser.add_argument('--sigma', default=0.1, type=float, metavar='S',
                         help='Sigma for log likelihood.')
-    parser.add_argument('--phase-parallel', default=True, type=bool,
+    parser.add_argument('--phase-parallel', default=False, type=bool,
                         help='Multi-GPUs')
     parser.add_argument('--phase-simplify-summary', default=True, type=bool,
                         help='Only show image in summary log.')
